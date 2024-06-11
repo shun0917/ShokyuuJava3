@@ -32,6 +32,12 @@ public class  Car extends Vehicle implements KeyListener {
 		if(e.getKeyCode()==KeyEvent.VK_RIGHT) {
 			vx=5;
 		}
+		if(e.getKeyCode()==KeyEvent.VK_DOWN) {
+			vy=5;
+		}
+		if(e.getKeyCode()==KeyEvent.VK_UP) {
+			vy=-5;
+		}
 
 	}
     
@@ -46,6 +52,12 @@ public class  Car extends Vehicle implements KeyListener {
 			vx=0;
 		
 	    }
+		if(e.getKeyCode()==KeyEvent.VK_DOWN) {
+			vy=0;
+		}
+		if(e.getKeyCode()==KeyEvent.VK_UP) {
+			vy=0;
+		}
 	}
 
 
